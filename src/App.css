@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  color: #7d205a
+}
+
+header{
+  display: block;
+  width: 100%;
+  height: 100px;
+}
+header h1{
+  text-align: left;
+  display: inline-block;
+  margin: 20px;
+
+}
+header .navBar{
+  display: inline-block;
+  width: 80%;
+  text-align: right;
+}
+.navLink{
+  display: inline;
+  margin: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color:#7d205a
+}
+#title-er{
+  color: #285054;
+}
+#home-image{
+  width: 60%;
+  float: right;
+}
+.home-text{
+  width: 40%;
+  float: left;
+  margin-top:7%;
+  padding-left: 70px;
+}
+.home-text p{
+  font-size: 1.25em;
+  margin: 10px;
+}
+.home-text h2{
+  font-size: 2.5em;  
+  margin: 10px;
+}
+#search{
+  width: 120%;
+  padding: 15px;
+  margin-top: 10px;
+}
+#search-button{
+  padding: 15px;
+  background-color: #7d205a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 20px;
+  margin-left: 0px;
+  border-radius: 15%  ;
+}
+.destination-title{
+  clear: both;
+  padding:20px 20px 20px 0px;
+}
+.destination-title h2{
+  font-size: 2.5em
+
+}
+.content{
+  width: 90%;
+  clear: both;
+  margin: 0 auto;
+}
+.card{
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.card img{
+  width: 100%;
+}
+.card-text{
+  font-size: 2rem;
+  color: black;
+}
+.card-container{
+  margin: 10px;
+  width: 100%;
+}
+.card-link{
+  padding:15px;
+  text-decoration: none;
+  background-color: #7d205a;
+  color: white;
+  display: block;
+  width: 30%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.card-title{
+  color:black;
+  font-size:1.25rem;
+  margin:10px 10px 10px 0px;
+  font-weight: bold;
+}
+.card-description{
+  color:black;
+  font-size:1rem;
+  margin:25px 10px 10px 0px;
+}
+.contact-form-container{
+  background-color: #f7f7f7;
+}
+.contact-form{
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.contact-form-title{
+  font-size: 3em;
+  margin: 10px 10px 10px 0px;
+}
+.contact-form-subtitle{
+  font-size: 1.5em;
+  margin: 10px 10px 10px 0px;
+  font-weight: lighter;
+}
+form{
+  color: black;
+  margin: 20px;
+}
+form label{
+  font-size: 2em;
+  margin: 20px 10px 0px 0px;
+}
+form input,
+form select{
+  font-size: 1em;
+  padding: 15px;
+  width: 100%;
+  font-weight: lighter;
+  opacity: 0.8;
+  margin-bottom: 20px;
+  height: 52px;
+}
+#submit{
+  width: 30%;
+  font: 2em;
+  background-color:#7d205a;
+  color: white;
+  border: none;    
+}
